@@ -4,7 +4,8 @@ import { FaChartBar, FaStreetView } from 'react-icons/fa';
 import { Link, useLoaderData } from 'react-router-dom';
 
 const CoursesItem = () => {
-   
+    const courseItems = useLoaderData();
+    const {id, image_url, price, title, details, total_view, rating, author} = courseItems;
 
     return (
         <section id="courses" className="courses">
