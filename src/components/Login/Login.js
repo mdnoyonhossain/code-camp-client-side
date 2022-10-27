@@ -46,18 +46,7 @@ const Login = () => {
             })
     }
 
-    const githubSignInPopup = () => {
-        githubSignIn()
-            .then(result => {
-                console.log(result);
-                toast.success('Github SignIn Successfull');
-                navigate(from, {replace: true})
-            })
-            .catch(error => {
-                console.error(error);
-                toast.error(error.message)
-            })
-    }
+    
 
     return (
         <div className='my-4'>
