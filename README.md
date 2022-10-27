@@ -1,6 +1,6 @@
 # Code Camp
 
-Live Link -> [Coding School](https://codecamp-ebe1d.web.app/).
+Live Link -> [Code Camp](https://codecamp-ebe1d.web.app/).
 
 Live Server -> [Code Camp](https://codecamp-server.vercel.app/).
 
