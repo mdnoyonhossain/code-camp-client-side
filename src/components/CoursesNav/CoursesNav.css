@@ -1,0 +1,7 @@
+.custom li a:hover{
+    background-color: tomato;
+}
+.custom {
+    background-color: #5FCF80;
+    border-radius: 10px;
+}
