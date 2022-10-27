@@ -3,7 +3,12 @@ import { Link, useLoaderData } from 'react-router-dom';
 import { useReactToPrint } from 'react-to-print';
 
 const CourseDetails = () => {
-    
+    const courseDetails = useLoaderData();
+    const { id, image_url, price, title, details, total_view, author } = courseDetails;
+    const componentRef = useRef();
+    const handlePrint = useReactToPrint({
+        content: () => componentRef.current,
+    });
 
     return (
         <section ref={componentRef} id="course-details" className="course-details">
