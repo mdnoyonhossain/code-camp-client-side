@@ -41,7 +41,18 @@ const Blog = () => {
                         </div>
                     </div>
                 </div>
-                
+                <div className="accordion-item">
+                    <h2 className="accordion-header" id="headingFourd">
+                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#headingFourd" aria-expanded="false" aria-controls="headingFourd">
+                            What is Node? How does Node work?
+                        </button>
+                    </h2>
+                    <div id="headingFourd" className="accordion-collapse collapse" aria-labelledby="headingFourd" data-bs-parent="#accordionExample">
+                        <div className="accordion-body">
+                            Node. js is a JavaScript runtime environment that achieves low latency and high throughput by taking a “non-blocking” approach to serving requests. In other words, Node. js wastes no time or resources on waiting for I/O requests to return.
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </div>
